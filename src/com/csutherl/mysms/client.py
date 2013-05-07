@@ -31,7 +31,7 @@ class Client():
         print usercontacts # print result
 
     def sendText(self):
-        # recipients must have '91' prefix for US numbers
+        # recipients must have '+1' prefix for US numbers
         req_data = {
             "recipients": ['TEST_PHONE_NUMBER'],
             "message": 'hi',
